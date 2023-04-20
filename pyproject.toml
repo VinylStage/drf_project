@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "drfpj-pkg"
+version = "0.1.0"
+description = "drf_project_study"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "drfpj_pkg"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2"
+pip = "^23.1"
+djangorestframework-simplejwt = "^5.2.2"
+djangorestframework = "^3.14.0"
+django-dotenv = "^1.4.2"
+autopep8 = "^2.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
